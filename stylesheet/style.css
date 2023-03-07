@@ -8,7 +8,7 @@ body{
 .container{
     border: 1px solid grey;
     width: 40%;
-    height: 33vh;
+    height: 38vh;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -28,6 +28,7 @@ button{
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+    border: 1px solid black;
 }
 #shownum{
     width: 60px;
@@ -38,9 +39,12 @@ button{
     align-items: center;
     justify-content: center;
 }
+#reset{
+    padding: 6px 40px;
+}
 footer div{
     margin-top: -20%;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -52,8 +56,10 @@ footer ul{
     list-style: none;
     gap: 50px;
     height: 50px;
+    margin-top: 1%;
 }
 footer ul li a img{
+    
     height: 30px;
   width: 30px;
 }
