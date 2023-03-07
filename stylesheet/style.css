@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    border: 1px solid grey;
+    width: 40%;
+    height: 33vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+ 
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    padding: 7px 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#shownum{
+    width: 60px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div{
+    margin-top: -20%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+footer ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    gap: 50px;
+    height: 50px;
+}
+footer ul li a img{
+    height: 30px;
+  width: 30px;
+}
+footer ul li a img:hover{
+  height: 40px;
+  width: 40px;
+  color: aqua;
+}
